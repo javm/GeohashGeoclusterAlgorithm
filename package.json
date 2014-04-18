@@ -1,0 +1,15 @@
+{
+    "name": "clustering_markers",
+    "description": "Given a set of markers returns a set of clusters with the number of markers in each cluster",
+    "keywords": ["geocode", "geohash", "geolocation", "clustering"],
+    "author": ["Jose A. Villarreal"],
+    "email": "quetzal1910@gmail.com",
+    "version": "0.0.1",
+    "scripts":  {
+      "start": "node clustering.js"
+    },
+    "dependencies": {
+	"express": "4.0.0",
+	"geohash": "git://github.com/javm/geohash-js.git#master"
+    }
+}
